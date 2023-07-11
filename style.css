@@ -50,6 +50,124 @@
 }
 /* header section end */
 
+/* flower featured section start */
+.flower-title{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.flower-discription{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.flower-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .flower5{
+        width: 100px;
+        height: 200px;
+        margin-left: 10px;
+        background-color: #FF69B4;
+        padding: 35px 10px 0px 15px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+    .flower5{
+        width: 200px;
+        height: 200px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        background-color: #B0E0E6;
+        padding: 50px 20px 0px 20px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+    .flower6{
+        width: 200px;
+        height: 180px;
+        background-color: #C0C0C0;
+        margin-left: 10px;
+        padding: 50px 20px 0px 30px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        margin-bottom: 0px;
+    }
+    .title1{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .title2{
+        text-align: center;
+    }
+    .title3{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+/* flower featured section start */
+
+/*hot deals section start */
+#deal-section-container{
+    width: 100%;
+    background-color: #FFFAF0;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.deal-content{
+    width: 100%;
+    display: flex;
+    
+}
+.img-content{
+    width: 40%;
+}
+.deal-img{
+    width: 200px;
+    height: 300px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    margin-left: 90px;
+}
+.deal-title{
+    width: 60%;
+    margin-left: 20px;
+}
+.deal-header{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-left: 80px;
+};
+.deal-discription{
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 10px;
+    padding-top: 50px;
+    padding-left: 100px;
+    margin-right: -200px;
+}
+.primary-btn3{
+    width: 100px;
+    background-color: #E55473;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    border: none;
+  
+}
+
+/*hot deals section end */
+
+
 /* instragram section start */
 .intagram-title{
     text-align: center;
@@ -67,6 +185,7 @@ align-items: center;
 .flower1{
     width: 250px;
     margin-left: 10px;
+    background-color: #FFC0CB;
 }
 .flower2{
     width: 250px;
@@ -141,15 +260,15 @@ input{
 /* footer section start */
 .footer-container{
     width: 100%;
-    height: 200px;
+    height: 300px;
     background-color: black;
 }
 .footer-title{
-    display: block;
+
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top: ;
+    padding-top: 80px;
 }
 span{
     color: #E55473;
@@ -158,6 +277,12 @@ span{
     color: lightgray;
     font-size: 12px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
+}
+.footer-end{
+    display: block;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
 }
 /* footer section end */
